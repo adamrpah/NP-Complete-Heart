@@ -262,3 +262,453 @@ Started GET "/posts/" for 127.0.0.1 at 2011-06-05 19:59:19 -0500
   [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
 Rendered posts/index.html.erb within layouts/application (38.4ms)
 Completed 200 OK in 52ms (Views: 42.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2011-06-05 20:52:03 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2011-06-05 20:52:07 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2011-06-05 20:52:09 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2011-06-05 20:52:09 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2011-06-05 20:52:11 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-05 20:52:13 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-05 20:52:16 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-05 20:52:19 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:2:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-05 20:52:45 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:3:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-05 20:56:50 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:3:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-05 20:56:56 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-05 20:56:58 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:3:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-06 11:00:26 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-06 11:00:27 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-06 11:00:30 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:3:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-06 11:00:33 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-06 11:32:22 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-06 11:32:24 -0500
+
+ActionController::RoutingError (undefined method `http_basic_authenticate_with' for PostsController:Class):
+  app/controllers/posts_controller.rb:3:in `<class:PostsController>'
+  app/controllers/posts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-06 11:32:53 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-06 11:32:55 -0500
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (22.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 206ms (Views: 42.8ms | ActiveRecord: 22.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2011-06-06 11:32:57 -0500
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (114.6ms)
+Rendered posts/new.html.erb within layouts/application (118.6ms)
+Completed 200 OK in 158ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-07 14:41:11 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-07 14:41:15 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 14:41:16 -0500
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (26.9ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 232ms (Views: 42.8ms | ActiveRecord: 26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-07 14:46:28 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreatePosts (20110606001257)
+Migrating to CreateComments (20110606004630)
+Migrating to CreateTags (20110608025251)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.7ms)[0m  [1mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "post_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110608025251')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("comments")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("posts")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("tags")
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-07 22:03:33 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-07 22:03:33 -0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:03:36 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:07:58 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:07:59 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (26.6ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.2ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:08:00 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:08:00 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:08:00 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:08:00 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:08:01 -0500
+  Processing by PostsController#index as HTML
+Completed   in 5ms
+
+SyntaxError (/Users/adampah/Coding/np-complete-heart/app/models/post.rb:9: syntax error, unexpected tASSOC, expecting keyword_end
+        :reject_if => proc { |attrs| attrs.all? { |k,v| v.blank?} }
+                     ^):
+  app/controllers/posts_controller.rb:6:in `index'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:10:36 -0500
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 113ms (Views: 15.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2011-06-07 22:10:39 -0500
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (120.6ms)
+Rendered posts/new.html.erb within layouts/application (122.9ms)
+Completed   in 153ms
+
+ActionView::Template::Error (undefined local variable or method `post_form' for #<#<Class:0x000001030d0850>:0x000001030c85d8>):
+    13:   <% end %>
+    14: 
+    15:   <div class="field">
+    16:     <%= post_form.label :name %><br />
+    17:     <%= post_form.text_field :name %>
+    18:   </div>
+    19:   <div class="field">
+  app/views/posts/_form.html.erb:16:in `block in _app_views_posts__form_html_erb___2353193877851910971_2173027160__3523862021866909525'
+  app/views/posts/_form.html.erb:2:in `_app_views_posts__form_html_erb___2353193877851910971_2173027160__3523862021866909525'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb__2673060821965303040_2173045620__3892661212286992870'
+  app/controllers/posts_controller.rb:30:in `new'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-06-07 22:10:45 -0500
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2011-06-07 22:10:47 -0500
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE ("tags".post_id = 1)[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE ("comments".post_id = 1)
+Rendered collection (0.0ms)
+Rendered comments/_form.html.erb (65.0ms)
+Rendered posts/show.html.erb within layouts/application (166.2ms)
+Completed 200 OK in 184ms (Views: 169.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2011-06-07 22:10:51 -0500
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1[0m
+Rendered posts/_form.html.erb (60.3ms)
+Rendered posts/edit.html.erb within layouts/application (62.3ms)
+Completed   in 113ms
+
+ActionView::Template::Error (undefined local variable or method `post_form' for #<#<Class:0x00000101eebbd0>:0x00000101ee9218>):
+    13:   <% end %>
+    14: 
+    15:   <div class="field">
+    16:     <%= post_form.label :name %><br />
+    17:     <%= post_form.text_field :name %>
+    18:   </div>
+    19:   <div class="field">
+  app/views/posts/_form.html.erb:16:in `block in _app_views_posts__form_html_erb___2353193877851910971_2163671780__3523862021866909525'
+  app/views/posts/_form.html.erb:2:in `_app_views_posts__form_html_erb___2353193877851910971_2163671780__3523862021866909525'
+  app/views/posts/edit.html.erb:3:in `_app_views_posts_edit_html_erb__2795964213627098675_2163686100__3892661212286992870'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2011-06-07 22:12:40 -0500
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE ("tags".post_id = 1)[0m
+Rendered tags/_form.html.erb (1.8ms)
+Rendered posts/_form.html.erb (55.9ms)
+Rendered posts/edit.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 77ms (Views: 62.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/1" for 127.0.0.1 at 2011-06-07 22:13:15 -0500
+  Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a4dNseh2IWe06wLislH5ph+G2zoknTW30e/ESSIpbKc=", "post"=>{"name"=>"Adam Pah", "title"=>"Sitting With a Pretty Lady", "content"=>"It's just a party every day", "tags_attributes"=>{"0"=>{"name"=>"Party, PartyParty, Everydat"}}}, "commit"=>"Update Post", "id"=>"1"}
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "tags" ("name", "post_id", "created_at", "updated_at") VALUES ('Party, PartyParty, Everydat', 1, '2011-06-08 03:13:15.373306', '2011-06-08 03:13:15.373306')[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 134ms
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2011-06-07 22:13:15 -0500
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = 1 LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE ("tags".post_id = 1)[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE ("comments".post_id = 1)
+Rendered collection (0.0ms)
+Rendered comments/_form.html.erb (27.7ms)
+Rendered posts/show.html.erb within layouts/application (103.8ms)
+Completed 200 OK in 124ms (Views: 108.2ms | ActiveRecord: 1.6ms)
