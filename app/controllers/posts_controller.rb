@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+
+  before_filter :authenticate_user!, :except => [:index, :show]
   
   # GET /posts
   # GET /posts.xml
@@ -35,12 +37,14 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    authorize! :edit, @post
     @post = Post.find(params[:id])
   end
 
   # POST /posts
   # POST /posts.xml
   def create
+    authorize! :create, @post
     @post = Post.new(params[:post])
 
     respond_to do |format|
@@ -57,6 +61,7 @@ class PostsController < ApplicationController
   # PUT /posts/1
   # PUT /posts/1.xml
   def update
+    authorize! :update, @article
     @post = Post.find(params[:id])
 
     respond_to do |format|
@@ -73,6 +78,7 @@ class PostsController < ApplicationController
   # DELETE /posts/1
   # DELETE /posts/1.xml
   def destroy
+    authorize! :destroy, @article
     @post = Post.find(params[:id])
     @post.destroy
 
