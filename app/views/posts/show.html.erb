@@ -1,17 +1,9 @@
 <p id="notice"><%= notice %></p>
-
 <p>
-  <b>Name:</b>
-  <%= @post.name %>
+  <b><%= @post.title %></b>
 </p>
 
 <p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
-
-<p>
-  <b>Content:</b>
   <%= @post.content %>
 </p>
 
@@ -20,10 +12,10 @@
   <%= join_tags(@post)%>
 </p>
 
-<h2>Comments</h2>
+<h3>Comments</h3>
 <%= render @post.comments %>
 
-<h2>Add a comment:</h2>
+<h4>Add a comment:</h4>
 <%= render "comments/form" %>
 
 <%= link_to 'Edit Post', edit_post_path(@post) %> |

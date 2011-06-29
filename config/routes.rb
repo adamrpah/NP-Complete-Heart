@@ -6,6 +6,9 @@ NpCompleteHeart::Application.routes.draw do
     resources :comments
   end
   
+  #get "about#index"
+  #get "contact#index"
+  
   resources :about
   
   resources :contact
