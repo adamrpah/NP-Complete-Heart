@@ -4,8 +4,8 @@
 		<ul>
 			<li class="current_page_item"><%=link_to "Home", root_url%></li>
 	  		<li><%= link_to "Archive", posts_path %></li>
-	  		<li><%= link_to "About", :controller => 'about', :action => 'index' %></li>
-	  		<li><%= link_to "Contact", :controller => 'contact', :action => 'index' %></li>
+	  		<li><%= link_to "About", :controller => "/about", :action => "index" %></li>
+	  		<li><%= link_to "Contact", :controller => "/contact", :action => "index" %></li>
 		</ul>
 	</nav>
 </header>
