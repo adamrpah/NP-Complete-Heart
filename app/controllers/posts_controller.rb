@@ -12,6 +12,15 @@ class PostsController < ApplicationController
       format.xml  { render :xml => @posts }
     end
   end
+  
+  def front
+    @posts = Post.all
+    
+    respond_to do |format|
+      format.html
+      format.xml { render :xml => @posts }
+    end
+  end
 
   # GET /posts/1
   # GET /posts/1.xml

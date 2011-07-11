@@ -1,0 +1,5 @@
+<% @posts.each do |post|%>
+	<h3><%= link_to post.title, post%></h3>
+	<p><%=post.created_at.month.to_s+'.'+post.created_at.day.to_s+'.'+post.created_at.year.to_s%></p>
+	<%=post.content%>
+<% end %>
