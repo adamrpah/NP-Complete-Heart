@@ -6,14 +6,8 @@ class Ability
  
     if user.role? :Admin
       can :manage, :all
-      can :publish, Article
-    elsif user.role? :Moderator
-      can :read, [Article, Comment]
-      can [:edit, :update], Comment
-    elsif user.role? :Member
+    else
        can :read, :all
-       can :create, [Article, Comment]
-       can [:edit, :update], Comment
     end
   end
 end
