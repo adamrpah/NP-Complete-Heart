@@ -2,7 +2,7 @@ NpCompleteHeart::Application.routes.draw do
 
   resources :roles
 
-  devise_for :users, :controllers
+  devise_for :users, :controllers => { :registrations => "users/registrations" }
 
   resources :posts do
     resources :comments
