@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   end
   
   def front
-    @posts = Post.all.reverse
+    @posts = Post.all.reverse[0,3]
     
     respond_to do |format|
       format.html

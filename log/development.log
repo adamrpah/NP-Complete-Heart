@@ -66192,3 +66192,288 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.c
   
 
 Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:45:09 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered posts/front.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 100ms (Views: 18.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:45:09 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:45:09 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:45:18 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered posts/front.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 98ms (Views: 18.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:45:18 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:45:18 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:45:33 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered posts/front.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 99ms (Views: 18.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:45:34 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:45:34 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:49:00 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered posts/front.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 59ms (Views: 18.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:49:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:49:00 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:50:48 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+ERROR: compiling _app_views_posts_front_html_erb__320334640372060642_2158090860__4255488003765080818 RAISED /Users/adampah/Coding/np-complete-heart/app/views/posts/front.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/adampah/Coding/np-complete-heart/app/views/posts/front.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_posts_front_html_erb__320334640372060642_2158090860__4255488003765080818(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "posts/front";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.append_if_string=  @posts.each do |post|
+@output_buffer.safe_concat('	<h3>');@output_buffer.append= ( link_to post.title, post);@output_buffer.safe_concat('</h3>
+	<p>');@output_buffer.append= (post.created_at.month.to_s+'.'+post.created_at.day.to_s+'.'+post.created_at.year.to_s);@output_buffer.safe_concat('</p>
+	');@output_buffer.append= (post.content.split[0,200].join(' '));@output_buffer.safe_concat('
+');	 if post.content.split.length>200 
+@output_buffer.safe_concat('		<p>');@output_buffer.append= ( link_to "Read more", post );@output_buffer.safe_concat('</p>
+');	 end 
+ end 
+@output_buffer.safe_concat('<p>');@output_buffer.append= ( link_to "More Articles...", post#index);@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/adampah/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:261:in `block in retrieve_response_from_mimes'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+/Users/adampah/Coding/np-complete-heart/app/controllers/posts_controller.rb:19:in `front'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:441:in `_run__953655674898472116__process_action__3521051953314167622__callbacks'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/warden-1.0.4/lib/warden/manager.rb:35:in `block in call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/warden-1.0.4/lib/warden/manager.rb:34:in `catch'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/warden-1.0.4/lib/warden/manager.rb:34:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/adampah/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/adampah/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/adampah/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered posts/front.html.erb within layouts/application (0.9ms)
+Completed   in 46ms
+
+ActionView::Template::Error (/Users/adampah/Coding/np-complete-heart/app/views/posts/front.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/adampah/Coding/np-complete-heart/app/views/posts/front.html.erb:12: syntax error, unexpected keyword_end, expecting ')'):
+    7: 	<% end %>
+    8: <% end %>
+    9: <p><%= link_to "More Articles...", post#index%>
+  app/controllers/posts_controller.rb:19:in `front'
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (53.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-16 13:51:13 -0400
+  Processing by PostsController#front as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered posts/front.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 95ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:51:13 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:51:13 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2011-07-16 13:51:15 -0400
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered posts/index.html.erb within layouts/application (55.7ms)
+Completed 200 OK in 107ms (Views: 93.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2011-07-16 13:51:15 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2011-07-16 13:51:15 -0400
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /Users/adampah/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
