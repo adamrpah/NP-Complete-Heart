@@ -7,15 +7,18 @@
   </head>
 <body style>
 <body>
-	<div class="roundcontainer">
+	<div class="container">
+		<section class="round">
   		<%= render 'layouts/header'%>
+		</section>
 	</div>
 	<div class ="container">
 		<section class = "round">
 	    <%= yield %>
+		<p class="notice"><%= notice %></p>
+		<p class="alert"><%= alert %></p>
 		</section>
 	</div>
-	<p class="notice"><%= notice %></p>
-	<p class="alert"><%= alert %></p>
+
   </body>
 </html>

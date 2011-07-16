@@ -2,13 +2,6 @@
   width: 710px;
 }
 
-.roundcontainer {
-  width: 710px;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-}
-
 body {
   background: #230013;
 }
@@ -18,10 +11,22 @@ header {
   background: #fff;
 }
 
+header ul {
+  margin-right:0em;
+  padding: 0;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0em 0;
+  vertical-align: top;
+}
+
 section {
   margin-top: 1em;
   font-size: 120%;
-  padding: 20px;
+  padding: 15px;
   background: #fff;
 }
 
@@ -48,12 +53,10 @@ a:visited {
 /* Navigation */
 
 nav {
-  float: top;
   float: right;
 }
 
 nav {
-  background-color: white;
   padding: 0 0.7em;
   white-space: nowrap;
 }

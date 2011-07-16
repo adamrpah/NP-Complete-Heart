@@ -1,11 +1,15 @@
 <header>
-	<%= link_to image_tag("logo.png", :alt => "Sample App"), root_url%>
-	<nav>
-		<ul>
-			<li><%=link_to "Home", root_url%></li>
-	  		<li><%= link_to "Archive", posts_path %></li>
-	  		<li><%= link_to "About", :controller => "/about", :action => "index" %></li>
-	  		<li><%= link_to "Contact", :controller => "/contact", :action => "index" %></li>
-		</ul>
-	</nav>
+	<ul>
+		<li><%= link_to image_tag("logo.png", :alt => "Sample App"), root_url%></li>
+		<li>
+		<nav>
+			<ul>
+				<li><%=link_to "Home", root_url%></li>
+		  		<li><%= link_to "Archive", posts_path %></li>
+		  		<li><%= link_to "About", :controller => "/about", :action => "index" %></li>
+		  		<li><%= link_to "Contact", :controller => "/contact", :action => "index" %></li>
+			</ul>
+		</nav>
+		</li>
+	</ul>
 </header>
