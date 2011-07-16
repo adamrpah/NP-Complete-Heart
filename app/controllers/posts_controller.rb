@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  before_filter :authenticate_user!, :except => [:index, :show]
+  skip_before_filter :authenticate_user!, :except => [:front, :index, :show]
   
   # GET /posts
   # GET /posts.xml
