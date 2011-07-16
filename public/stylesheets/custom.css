@@ -2,16 +2,19 @@
   width: 710px;
 }
 
+.roundcontainer {
+  width: 710px;
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
 body {
   background: #230013;
 }
 
 header {
   padding-top: 20px;
-}
-
-header img {
-  padding: 1em;
   background: #fff;
 }
 
@@ -45,6 +48,7 @@ a:visited {
 /* Navigation */
 
 nav {
+  float: top;
   float: right;
 }
 
