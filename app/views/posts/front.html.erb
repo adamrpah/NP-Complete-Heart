@@ -5,7 +5,7 @@
 		  <%=post.created_at.month.to_s+'.'+post.created_at.day.to_s+'.'+post.created_at.year.to_s%>
 		</font>
 		<br />
-		<%=post.content.split[0,200].join(' ')%>
+		<%=post.content.split[0,200].join(' ').html_safe%>
 		<% if post.content.split.length>200 %>
 			<p><%= link_to "Read more", post %></p>
 		<% end %>
