@@ -7,7 +7,7 @@
 		<br />
 		<%=post.content.split[0,200].join(' ').html_safe%>
 		<% if post.content.split.length>200 %>
-			<p><%= link_to "Read more", post %></p>
+			<%= link_to "... (Read more)", post %>
 		<% end %>
 		<br />
 	</p>
