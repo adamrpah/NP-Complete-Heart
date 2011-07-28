@@ -12,7 +12,7 @@
   <%= join_tags(@post)%>
 </p>
 <% if user_signed_in?%>
-<%= link_to 'Edit Post', edit_post_path(@post) %>
+  <%= link_to 'Edit Post', edit_post_path(@post) %>
 <% end %>
 
 <%= image_tag("articlefooter.png", :alt => "article_footer") %>
@@ -25,6 +25,4 @@
 <% end %>
 <h4>Add a comment:</h4>
 <%= render "comments/form" %>
-
-
 

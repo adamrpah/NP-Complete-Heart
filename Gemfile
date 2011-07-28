@@ -8,6 +8,7 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 gem 'devise', '~>1.1.3'
 gem 'cancan'
+gem "RedCloth"
 
 # Use unicorn as the web server
 # gem 'unicorn'
