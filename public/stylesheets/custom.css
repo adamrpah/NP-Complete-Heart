@@ -61,6 +61,29 @@ a:visited {
   font-weight: bold;
 }
 
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #000;
+    display: block;
+    float: left;
+    font: normal 1em "Times New Roman";
+    font-weight: bold;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button:hover{
+    text-decoration: underline;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
 /* Navigation */
 
 nav {

@@ -18,11 +18,14 @@
 <%= image_tag("articlefooter.png", :alt => "article_footer") %>
 
 <% if @post.comments %>
-  <h3>Comments</h3>
   <%= render @post.comments %>
 <% else %>
   <h4>No Comments, be the first!</h4>
 <% end %>
-<h4>Add a comment:</h4>
-<%= render "comments/form" %>
+
+<a class="button" href="#" id="show" onclick="showcomment();return false;">Add Comment</a>
+<div id="hidden" style="display:none">
+	<br /><br />
+	<%= render "comments/form" %>
+</div>
 
