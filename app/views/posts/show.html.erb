@@ -7,10 +7,10 @@
   <%= @post.content.html_safe %>
 </p>
 
-<p>
+<!-- <p>
   <b>Tags:</b>
   <%= join_tags(@post)%>
-</p>
+</p> -->
 <% if user_signed_in?%>
   <%= link_to 'Edit Post', edit_post_path(@post) %>
 <% end %>
