@@ -62,7 +62,7 @@ a:visited {
 }
 
 a.button {
-    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    background: transparent no-repeat scroll top right;
     color: #000;
     display: block;
     float: left;
