@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '3.0.19'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,6 +10,7 @@ gem 'devise', '~>1.1.3'
 gem 'cancan'
 gem "RedCloth"
 gem 'jquery-rails', "1.0.12"
+gem 'activeadmin'
 
 # Use unicorn as the web server
 # gem 'unicorn'
